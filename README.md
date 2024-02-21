@@ -30,11 +30,11 @@ Para instalar o Polls, siga estas etapas:
 Linux e Windows:
 
 ```
-<Primeiro baixe os arquivos do projeto>
-<Navegue pelo seu terminal até a pasta onde baixou os arquivos do projeto>
-<Rode o comando "npm i" para instalar as dependências do projeto>
-<Rode o comando "docker compose up -d" para subir os BD's>
-<Rode o comando "npm run dev" e estará pronto para uso!>
+Primeiro baixe os arquivos do projeto
+Navegue pelo seu terminal até a pasta onde baixou os arquivos do projeto
+Rode o comando "npm i" para instalar as dependências do projeto
+Rode o comando "docker compose up -d" para subir os BD's
+Rode o comando "npm run dev" e estará pronto para uso!
 ```
 
 ## ☕ Usando Polls
