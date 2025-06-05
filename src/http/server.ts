@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { createPoll } from './routes/create-poll';
 import { getPoll } from './routes/get-poll';
 import { voteOnPoll } from './routes/vote-on-poll';
@@ -20,6 +21,8 @@ app.register(voteOnPoll);
 
 app.register(pollResults);
 
-app.listen({ port: 3333 }).then(() => {
-    console.log('HTTP Server running!');
+const port = Number(process.env.PORT);
+
+app.listen({ port: port }).then(() => {
+    console.log(`HTTP Server running on port: ${port}!`);
 });

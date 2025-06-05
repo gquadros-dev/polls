@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/http/server.ts"
+    "dev": "tsx watch src/http/server.ts",
+    "build": "rimraf ./dist && tsc",
+    "start": "node dist/http/server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,7 @@
     "@types/node": "^20.11.16",
     "dotenv": "^16.4.1",
     "prisma": "^5.9.1",
+    "rimraf": "^6.0.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },
